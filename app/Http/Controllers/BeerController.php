@@ -6,8 +6,10 @@ use App\Http\Integrations\BeerApi\BeerApiConnector;
 use App\Http\Integrations\BeerApi\Requests\GetBeers;
 use Illuminate\Http\Request;
 
+
 class BeerController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      */
