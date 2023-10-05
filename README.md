@@ -12,6 +12,10 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
+Aviare sail 
+```bash
+./vendor/bin/sail up -d 
+```
 
 Copiare il file .env.example in .env e configurare le variabili d'ambiente
 
